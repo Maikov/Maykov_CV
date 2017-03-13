@@ -1,0 +1,30 @@
+// Contacts 1024 px Desktop
+
+@media screen and (min-width: 1024px) {
+.contacts {
+      font-family: $secondfont;
+      font-size: 4rem; 
+      color: #000;
+      letter-spacing: 0.2rem;
+      margin-top: 5rem;
+      display: none;
+    }
+
+  
+  #contacts {
+    width: 1280px;
+    min-height: 700px;
+    position: relative;
+    background: url(../../build/img/12.jpg) no-repeat;
+    overflow: hidden;
+    background-size: 100%;
+    margin: $center;
+    text-align: center;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:100% 0;
+ }
+}

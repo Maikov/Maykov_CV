@@ -1,0 +1,18 @@
+body {
+  background-size: 100%;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+@import "main_partials/core";
+// @import "320/core_320";
+// @import "768/core_768";
+@import "1280/core_1280";

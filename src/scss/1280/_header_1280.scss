@@ -1,0 +1,172 @@
+// HEADER 1280px Desktop
+
+@media screen and (min-width: 1024px) and (max-width: 999999px){
+  header {
+    width: 1280px;
+    min-height: 700px;
+    position: relative;
+    background: url(../../build/img/bg.jpg) no-repeat;
+    overflow: hidden;
+    background-size: 100%;
+    margin: $center;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    box-shadow: 0 10px 10px #98998e;
+  }
+
+  #menu {
+    font-family: 'Oswald', sans-serif;
+    position: fixed;
+    width: 1280px;
+    height: 3rem;
+    margin-top: 2rem;
+    z-index: 6000;
+    text-align: center;
+
+    .btn {
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem 3.3rem;
+      font-size: 1.2rem;
+      text-decoration: none;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #2cbc99;
+    }
+    
+    .btn:hover{
+      border: none;
+      background: rgba(0, 0, 0, 0.4);
+      background: #fff;
+      padding: 1.5rem 3.3rem; 
+      color: #2cbc99;
+      font-weight: bold;
+      border-radius: 5px;
+      -webkit-transition-property: all;
+      -webkit-transition-duration: .2s;
+      -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+      -moz-transition-property: all;
+      -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    }
+  }
+
+  .header_text {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 6rem;
+
+    #name {
+      font-family: $secondfont;
+      font-size: 4rem; 
+      color: #fff;
+      letter-spacing: 0.2rem;
+      text-shadow: 0 0 0.2rem $text-shadow;
+    }
+
+    .position {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      font-family: $secondfont;
+      font-size: 2rem; 
+      color: #fff;
+      letter-spacing: 0.1rem;
+      text-shadow: 0 0 0.1rem $text-shadow;
+    }
+  }
+
+.main_about {
+  height: 21rem;
+
+}
+
+  .about {
+    float: left;
+    width: 26.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem; 
+    line-height: 2.7rem;
+    color: #fff;
+    margin: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.txt_change {
+  color: #2cbc99;
+  font-weight: bold;
+  text-align: center;
+}
+
+.down {
+  float: left;
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+
+.icon {
+  float: left;
+  padding: 1rem;
+}
+
+  .foto {
+    background: url(../../build/img/anton.jpg) no-repeat;
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: $center;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #98998e;
+    border: solid 6px #fff;
+    transition: background 1s ease;
+    backface-visibility: hidden;
+    transition: all 0.5s ease;
+  }
+
+  .foto:hover {
+    background: url(../../build/img/anton.jpg) no-repeat;
+    border-radius: 100%;
+    background-position: top right;
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+            transition: background 1s ease;
+    border: solid 6px #2cbc99;
+    box-shadow: 0 0 10px #98998e;
+  }
+
+  .cv {
+    position: relative;
+    float: left;
+    width: 17rem;
+    margin-top: 3rem;
+    margin-left: -23rem;
+    margin-right: 26rem;
+  }
+
+  .download {
+    font-family: 'Oswald', sans-serif;
+    color: #fff; 
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #2cbc99;
+  }
+
+  .download:hover {
+    color: #2cbc99;
+  }
+
+
+}

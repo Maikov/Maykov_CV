@@ -1,0 +1,51 @@
+﻿// Education 1024 px Desktop
+
+@media screen and (min-width: 1024px) {
+.education {
+	display: none;
+    font-family: $secondfont;
+    font-size: 4rem; 
+    color: #000;
+    letter-spacing: 0.2rem;
+    margin-top: 5rem;
+}
+ 
+  #education {
+    width: 1280px;
+    min-height: 700px;
+    position: relative;
+    background: url(../../build/img/millimetr.jpg) no-repeat;
+    overflow: hidden;
+    background-size: 100%;
+    margin: $center;
+    text-align: center;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:100% 0;
+    box-shadow: 0 10px 10px #98998e;
+    z-index: 3000;
+ }
+
+     .first, .second, .third, .fourth {
+    	float: left;
+    	margin: 1rem 2rem 1rem 2rem;
+    	padding: 2rem;
+    	position: relative;
+    	width: 36rem;
+    	height: 14rem;
+    	background: linear-gradient(to bottom, #e8e3e3, #fafafa);
+    	border-radius: 20px;
+    	box-shadow: 3px 5px 7px #4d4a4a;
+    }
+
+    	.fourth {
+    		margin-bottom: 2rem;
+    	}
+
+        .first, .second {
+    	    margin-top: 2rem;
+        }
+}
