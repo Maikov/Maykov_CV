@@ -81,11 +81,11 @@ table {
 
 @font-face {
   font-family: 'Oswald-Regular';
-  src: url("../../fonts/Oswald-Regular.ttf"); }
+  src: url("../../fonts/oswald/Oswald-Regular.ttf"); }
 
 @font-face {
   font-family: 'Oswald-Light';
-  src: url("../../fonts/Oswald-Light.ttf"); }
+  src: url("../../fonts/oswald/Oswald-Light.ttf"); }
 
 @media screen and (min-width: 1024px) and (max-width: 999999px) {
   header {
@@ -387,8 +387,7 @@ table {
     background: url(../../build/img/2ski.png);
     width: 500px;
     height: 500px;
-    border: solid 10px #fff;
-    transition: top 4s ease-out 0.5s; }
+    border: solid 10px #fff; }
   .text_ski {
     display: none;
     font-family: "Merriweather", sans-serif;
@@ -413,8 +412,7 @@ table {
     background: url(../../build/img/mountian.jpg) no-repeat;
     width: 500px;
     height: 500px;
-    border: solid 10px #fff;
-    transition: all 10s ease; }
+    border: solid 10px #fff; }
   .text_mount {
     display: none;
     font-family: "Merriweather", sans-serif;
