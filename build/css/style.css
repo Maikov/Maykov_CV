@@ -89,7 +89,7 @@ table {
 
 @media screen and (min-width: 1024px) and (max-width: 999999px) {
   header {
-    width: 1280px;
+    width: 100%;
     min-height: 700px;
     position: relative;
     background: url(../../build/img/bg.jpg) no-repeat;
@@ -104,7 +104,7 @@ table {
     background-position: 100% 0;
     box-shadow: 0 10px 10px #98998e; }
   #menu {
-    width: 1280px;
+    width: 100%;
     font-family: "Oswald-Light", sans-serif;
     position: fixed;
     text-align: center;
@@ -157,6 +157,7 @@ table {
   .about {
     float: left;
     width: calc(100%/3);
+    height: 100px;
     padding: 2rem;
     font-family: "Oswald-Light", sans-serif;
     font-size: 2rem;
@@ -206,7 +207,7 @@ table {
   .download {
     margin-top: 1rem; }
   .details {
-    margin-top: 6rem; }
+    margin-top: 1rem; }
   .download:hover {
     color: #2cbc99; }
   .details:hover {
@@ -221,7 +222,7 @@ table {
     letter-spacing: 0.2rem;
     margin-top: 5rem; }
   #education {
-    width: 1280px;
+    width: 100%;
     min-height: 700px;
     position: relative;
     background: url(../../build/img/millimetr.jpg) no-repeat;
@@ -261,7 +262,7 @@ table {
     margin-top: 5rem;
     display: none; }
   #portfolio {
-    width: 1280px;
+    width: 100%;
     min-height: 700px;
     position: relative;
     background: url(../../build/img/10.jpg) no-repeat;
@@ -287,7 +288,7 @@ table {
     margin-top: 5rem;
     display: none; }
   #contacts {
-    width: 1280px;
+    width: 100%;
     min-height: 700px;
     position: relative;
     background: url(../../build/img/12.jpg) no-repeat;
@@ -311,7 +312,7 @@ table {
     margin-top: 5rem;
     display: none; }
   #skills {
-    width: 1280px;
+    width: 100%;
     min-height: 1200px;
     position: relative;
     background: url(../../build/img/bg1.jpg) no-repeat;
@@ -347,7 +348,7 @@ table {
     margin-top: 5rem;
     display: none; }
   #interests {
-    width: 1280px;
+    width: 100%;
     min-height: 700px;
     position: relative;
     background: url(../../build/img/20.jpg) no-repeat;

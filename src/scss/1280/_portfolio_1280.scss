@@ -6,14 +6,13 @@
       font-size: 4rem; 
       color: #000;
       letter-spacing: 0.2rem;
-      // text-shadow: 0 0 0.3rem $text-shadow;
       margin-top: 5rem;
       display: none;
     }
 
   
   #portfolio {
-    width: 1280px ;
+    width: $mainwidth;
     min-height: 700px;
     position: relative;
     background: url(../../build/img/10.jpg) no-repeat;

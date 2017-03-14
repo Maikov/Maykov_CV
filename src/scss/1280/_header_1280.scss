@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 999999px){
   header {
-    width: 1280px;
+    width: $mainwidth;
     min-height: 700px;
     position: relative;
     background: url(../../build/img/bg.jpg) no-repeat;
@@ -19,7 +19,7 @@
   }
 
   #menu {
-    width: 1280px;
+    width: $mainwidth;
     font-family: $usefontLight;
     position: fixed;
     text-align: center;
@@ -147,7 +147,7 @@
   }
 
   .details {
-    margin-top: 6rem;
+    margin-top: 1rem;
   }
 
   .download:hover {
