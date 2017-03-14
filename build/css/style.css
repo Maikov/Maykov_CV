@@ -102,13 +102,12 @@ table {
     background-position: 100% 0;
     box-shadow: 0 10px 10px #98998e; }
   #menu {
+    width: 80rem;
     font-family: 'Oswald', sans-serif;
     position: fixed;
-    width: 1280px;
-    height: 3rem;
+    text-align: center;
     margin-top: 2rem;
-    z-index: 6000;
-    text-align: center; }
+    z-index: 6000; }
     #menu .btn {
       color: #fff;
       background: rgba(0, 0, 0, 0.5);
@@ -145,38 +144,28 @@ table {
       text-shadow: 0 0 0.2rem #000; }
     .header_text .position {
       margin-top: 1rem;
-      margin-bottom: 2rem;
       font-family: "Merriweather", sans-serif;
       font-size: 2rem;
       color: #fff;
       letter-spacing: 0.1rem;
       text-shadow: 0 0 0.1rem #000; }
   .main_about {
-    height: 21rem; }
+    width: 100%;
+    margin-top: 2rem; }
   .about {
     float: left;
-    width: 26.5rem;
+    width: calc(100%/3);
+    padding: 2rem;
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     line-height: 2.7rem;
     color: #fff;
-    margin: 2rem;
-    margin-top: 2rem;
     text-align: center; }
   .txt_change {
     color: #2cbc99;
-    font-weight: bold;
-    text-align: center; }
-  .down {
-    float: left;
-    margin-left: 8rem;
-    margin-top: 3rem; }
-  .icon {
-    float: left;
-    padding: 1rem; }
+    font-weight: bold; }
   .foto {
     background: url(../../build/img/anton.jpg) no-repeat;
-    float: left;
     height: 300px;
     width: 300px;
     margin: 0 auto;
@@ -198,25 +187,27 @@ table {
     transition: background 1s ease;
     border: solid 6px #2cbc99;
     box-shadow: 0 0 10px #98998e; }
-  .cv {
-    position: relative;
-    float: left;
-    width: 17rem;
-    margin-top: 3rem;
-    margin-left: -23rem;
-    margin-right: 26rem; }
-  .download {
+  .link {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
     font-family: 'Oswald', sans-serif;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     font-size: 1.2rem;
     text-decoration: none;
     letter-spacing: 0.2rem;
     border-radius: 5px;
     text-transform: uppercase;
     box-shadow: 0 0 10px #2cbc99; }
+  .download {
+    margin-top: 1rem; }
+  .details {
+    margin-top: 6rem; }
   .download:hover {
+    color: #2cbc99; }
+  .details:hover {
     color: #2cbc99; } }
 
 @media screen and (min-width: 1024px) {
