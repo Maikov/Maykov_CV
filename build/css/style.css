@@ -104,7 +104,7 @@ table {
     background-position: 100% 0;
     box-shadow: 0 10px 10px #98998e; }
   #menu {
-    width: 100%;
+    width: 98%;
     font-family: "Oswald-Light", sans-serif;
     position: fixed;
     text-align: center;
@@ -124,7 +124,7 @@ table {
       border: none;
       background: rgba(0, 0, 0, 0.4);
       background: #fff;
-      padding: 1.5rem 3.2rem;
+      padding: 1.5rem 3.3rem;
       color: #2cbc99;
       font-weight: bold;
       border-radius: 5px;
