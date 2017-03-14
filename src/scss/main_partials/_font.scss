@@ -6,14 +6,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'RobotoRegular';
-  src: url('../../../fonts/Roboto/roboto-regular-webfont.woff2') format('woff2'),
-  url('../../../fonts/Roboto/roboto-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 @font-face {
   font-family: 'LeagueGothic-Regular';
@@ -23,4 +15,18 @@
 @font-face {
   font-family: 'Georgia Italic';
   src: url('../../fonts/Georgia Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Oswald-Regular';
+  src: url('../../fonts/Oswald-Regular.ttf');
+  // font-weight: normal;
+  // font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald-Light';
+  src: url('../../fonts/Oswald-Light.ttf');
+  // font-weight: normal;
+  // font-style: normal;
 }

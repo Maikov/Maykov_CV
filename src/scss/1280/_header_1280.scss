@@ -20,7 +20,7 @@
 
   #menu {
     width: 80rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: $usefontLight;
     position: fixed;
     text-align: center;
     margin-top: 2rem;
@@ -87,7 +87,7 @@
     float: left;
     width: calc(100%/3);
     padding: 2rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: $usefontLight;
     font-size: 2rem; 
     line-height: 2.7rem;
     color: #fff;
@@ -130,7 +130,7 @@
     display: block;
     width: 70%;
     margin: $center;
-    font-family: 'Oswald', sans-serif;
+    font-family: $usefontLight;
     color: #fff; 
     background: rgba(0, 0, 0, 0.5);
     padding: 0.5rem 1rem;
