@@ -19,7 +19,8 @@
   }
 
   #menu {
-    width: 98%;
+    width: 100%;
+    margin: $center;
     font-family: $usefontLight;
     position: fixed;
     text-align: center;
@@ -42,7 +43,7 @@
       border: none;
       background: rgba(0, 0, 0, 0.4);
       background: #fff;
-      padding: 1.5rem 3.3rem; 
+      padding: 1.3rem 3.3rem; 
       color: #2cbc99;
       font-weight: bold;
       border-radius: 5px;
