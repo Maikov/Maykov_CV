@@ -124,7 +124,7 @@ table {
       border: none;
       background: rgba(0, 0, 0, 0.4);
       background: #fff;
-      padding: 1.5rem 3.3rem;
+      padding: 1.5rem 3.2rem;
       color: #2cbc99;
       font-weight: bold;
       border-radius: 5px;
@@ -157,7 +157,6 @@ table {
   .about {
     float: left;
     width: calc(100%/3);
-    height: 100px;
     padding: 2rem;
     font-family: "Oswald-Light", sans-serif;
     font-size: 2rem;
