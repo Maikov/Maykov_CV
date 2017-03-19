@@ -2,7 +2,7 @@ body {
   background-size: 100%;
   background-color: #f2f2f2;
   font-family: Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 10px;
   width: 100%; }
 
 .wrapper {
@@ -151,11 +151,11 @@ table {
       letter-spacing: 0.1rem;
       text-shadow: 0 0 0.1rem #000; }
   .main_about {
-    width: 100%;
     margin-top: 2rem; }
   .about {
     float: left;
-    width: calc(100%/3);
+    width: calc(99%/3);
+    height: 400px;
     padding: 2rem;
     font-family: "Oswald-Light", sans-serif;
     font-size: 2rem;
@@ -201,11 +201,10 @@ table {
     letter-spacing: 0.2rem;
     border-radius: 5px;
     text-transform: uppercase;
-    box-shadow: 0 0 10px #2cbc99; }
-  .download {
-    margin-top: 1rem; }
+    box-shadow: 0 0 10px #2cbc99;
+    margin-top: 2rem; }
   .details {
-    margin-top: 1rem; }
+    margin-top: 4rem; }
   .download:hover {
     color: #2cbc99; }
   .details:hover {
@@ -238,18 +237,31 @@ table {
     z-index: 3000; }
   .first, .second, .third, .fourth {
     float: left;
-    margin: 1rem 2rem 1rem 2rem;
-    padding: 2rem;
-    position: relative;
-    width: 36rem;
-    height: 14rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    width: 46%;
+    height: 16rem;
     background: linear-gradient(to bottom, #e8e3e3, #fafafa);
     border-radius: 20px;
     box-shadow: 3px 5px 7px #4d4a4a; }
-  .fourth {
-    margin-bottom: 2rem; }
-  .first, .second {
-    margin-top: 2rem; } }
+    .first .year, .second .year, .third .year, .fourth .year {
+      width: 30%;
+      background-color: #2cbc99;
+      font-size: 2rem;
+      font-family: "Oswald-Light", sans-serif;
+      color: #fff;
+      padding: 0.5rem;
+      border-radius: 10px;
+      margin-bottom: 1rem; }
+    .first .place, .second .place, .third .place, .fourth .place {
+      display: block;
+      font-size: 2rem;
+      font-family: "Oswald-Light", sans-serif;
+      color: #000;
+      text-align: justify;
+      line-height: 2.2rem; }
+    .first span, .second span, .third span, .fourth span {
+      font-weight: bold; } }
 
 @media screen and (min-width: 1024px) {
   .portfolio {
@@ -258,10 +270,11 @@ table {
     color: #000;
     letter-spacing: 0.2rem;
     margin-top: 5rem;
-    display: none; }
+    display: none;
+    margin-bottom: 2rem; }
   #portfolio {
-    width: 100%;
-    min-height: 700px;
+    width: 1280px;
+    min-height: 1050px;
     position: relative;
     background: url(../../build/img/10.jpg) no-repeat;
     overflow: hidden;
@@ -275,7 +288,50 @@ table {
     background-repeat: no-repeat;
     background-position: 100% 0;
     box-shadow: 0 10px 10px #98998e;
-    z-index: 2000; } }
+    z-index: 2000; }
+  .photo {
+    box-shadow: 5px 8px 7px #4d4a4a;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s Ease;
+    outline: none; }
+  a.photo:hover img {
+    box-shadow: 0 0 0px #00aaff; }
+  .smooth {
+    opacity: 1; }
+  .smooth:hover {
+    opacity: 0.7; }
+  .go-left {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 5px;
+    width: 380px;
+    right: -500px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 40px 10px 40px 10px;
+    transition: 0.5s Ease; }
+  .go-right {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 270px;
+    width: 380px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s Ease; }
+  .photo:hover > .go-left {
+    right: 0px; }
+  .photo:hover > .go-right {
+    display: block; } }
 
 @media screen and (min-width: 1024px) {
   .contacts {

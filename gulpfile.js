@@ -79,7 +79,10 @@ gulp.task('styles', function() {
         .pipe(sass())
         .pipe(gulp.dest(path.build.css))
         .pipe(rename({suffix: '.min'}))
-        .pipe(autoprefixer('last 2 version'))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(cssnano())
         .pipe(gulp.dest(path.build.css))
         .pipe(notify({ message: 'Styles task succesfull complete' }));

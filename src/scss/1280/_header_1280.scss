@@ -41,7 +41,6 @@
     
     .btn:hover{
       border: none;
-      // background: rgba(0, 0, 0, 0.4);
       background: #fff;
       padding: 1.5rem 3.3rem; 
       color: #2cbc99;
@@ -79,13 +78,13 @@
   }
 
   .main_about {
-    width: 100%;
     margin-top: 2rem;
   }
 
   .about {
     float: left;
-    width: calc(100%/3);
+    width: calc(99%/3);
+    height: 400px;
     padding: 2rem;
     font-family: $usefontLight;
     font-size: 2rem; 
@@ -140,14 +139,11 @@
     border-radius: 5px;
     text-transform: uppercase;
     box-shadow: 0 0 10px #2cbc99;
-  }
-
-  .download {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .details {
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
 
   .download:hover {
@@ -157,5 +153,4 @@
   .details:hover {
     color: #2cbc99;
   }
-
 }

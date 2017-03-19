@@ -1,16 +1,15 @@
 ﻿// Skills 1024 px Desktop
 
 @media screen and (min-width: 1024px) {
-.skills {
-      font-family: $secondfont;
-      font-size: 4rem; 
-      color: #fff;
-      letter-spacing: 0.2rem;
-      margin-top: 5rem;
-      display: none;
-    }
+  .skills {
+    font-family: $secondfont;
+    font-size: 4rem; 
+    color: #fff;
+    letter-spacing: 0.2rem;
+    margin-top: 5rem;
+    display: none;
+  }
 
-  
   #skills {
     width: $mainwidth;
     min-height: 1200px;
@@ -28,13 +27,12 @@
     background-position:100% 0;
     box-shadow: 0 10px 10px #98998e;
     z-index: 4000;
- }
+  }
 
-.skill {
-  margin-top: 3rem;
-  font-family: $secondfont;
-  font-size: 1.8rem; 
-  color: #fff;
- }
-
+  .skill {
+    margin-top: 3rem;
+    font-family: $secondfont;
+    font-size: 1.8rem; 
+    color: #fff;
+  }
 }

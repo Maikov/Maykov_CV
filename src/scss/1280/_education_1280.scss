@@ -1,14 +1,14 @@
 ﻿// Education 1024 px Desktop
 
 @media screen and (min-width: 1024px) {
-.education {
-	display: none;
+  .education {
+  	display: none;
     font-family: $secondfont;
     font-size: 4rem; 
     color: #000;
     letter-spacing: 0.2rem;
     margin-top: 5rem;
-}
+  }
  
   #education {
     width: $mainwidth;
@@ -27,25 +27,41 @@
     background-position:100% 0;
     box-shadow: 0 10px 10px #98998e;
     z-index: 3000;
- }
+  }
 
-     .first, .second, .third, .fourth {
-    	float: left;
-    	margin: 1rem 2rem 1rem 2rem;
-    	padding: 2rem;
-    	position: relative;
-    	width: 36rem;
-    	height: 14rem;
-    	background: linear-gradient(to bottom, #e8e3e3, #fafafa);
-    	border-radius: 20px;
-    	box-shadow: 3px 5px 7px #4d4a4a;
-    }
+    .first, .second, .third, .fourth {
+      float: left;
+      // display: inline-block;
+      margin: 1.5rem;
+      padding: 1.5rem;
+      width: 46%;
+      height: 16rem;
+      background: linear-gradient(to bottom, #e8e3e3, #fafafa);
+      border-radius: 20px;
+      box-shadow: 3px 5px 7px #4d4a4a;
 
-    	.fourth {
-    		margin-bottom: 2rem;
-    	}
+      .year {
+        width: 30%;
+        background-color: #2cbc99;
+        font-size: 2rem;
+        font-family: $usefontLight;
+        color: #fff;
+        padding: 0.5rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+      }
 
-        .first, .second {
-    	    margin-top: 2rem;
-        }
+      .place {
+        display: block;
+        font-size: 2rem;
+        font-family: $usefontLight;
+        color: #000;
+        text-align: justify;
+        line-height: 2.2rem;
+      }
+
+      span {
+        font-weight: bold;
+      }
+    }	
 }

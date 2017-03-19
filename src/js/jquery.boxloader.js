@@ -43,7 +43,7 @@
 
 		});
 
-	}
+	};
 
 
 	function verify_dir(element, dir, pos, animate_type){
@@ -62,7 +62,7 @@
 		 }else
 		 {
 		 	pos = "-50%";
-		 };
+		 }
 
 		switch(dir)
          	{
@@ -125,7 +125,7 @@
 		else
 		{
 			scrollarea = $(container).height();
-		};
+		}
 
 		return scrollarea;
 
@@ -273,5 +273,5 @@
         return original_pos;
 	}
 
-})(jQuery)
+})(jQuery);
 

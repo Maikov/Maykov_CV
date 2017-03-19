@@ -1,4 +1,3 @@
-
 	// HEADER
 
 $(document).ready(function() {
@@ -74,7 +73,7 @@ $(document).ready(function() {
 
 		});
 
-	}
+	};
 
 
 	function verify_dir(element, dir, pos, animate_type){
@@ -93,7 +92,7 @@ $(document).ready(function() {
 		 }else
 		 {
 		 	pos = "-50%";
-		 };
+		 }
 
 		switch(dir)
          	{
@@ -156,7 +155,7 @@ $(document).ready(function() {
 		else
 		{
 			scrollarea = $(container).height();
-		};
+		}
 
 		return scrollarea;
 
@@ -304,7 +303,7 @@ $(document).ready(function() {
         return original_pos;
 	}
 
-})(jQuery)
+})(jQuery);
 
 
 $(document).ready(function(){
@@ -371,6 +370,16 @@ function scroll(){
     	duration: 1000});
 
 }
+$(document).ready(function(){
+	$("a.photo").fancybox({
+		transitionIn: 'elastic',
+		transitionOut: 'elastic',
+		speedIn: 500,
+		speedOut: 500,
+		hideOnOverlayClick: false,
+		titlePosition: 'over'
+	});
+});
 //PARALLAX
 
 jQuery(document).ready(function(){
