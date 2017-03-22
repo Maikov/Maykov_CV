@@ -6,13 +6,13 @@
     font-size: 4rem; 
     color: #000;
     letter-spacing: 0.2rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: none;
   }
 
   #contacts {
     width: $mainwidth;
-    min-height: 700px;
+    height: 550px;
     position: relative;
     background: url(../../build/img/12.jpg) no-repeat;
     overflow: hidden;
@@ -23,7 +23,78 @@
     background-origin: initial;
     background-clip: initial;
     background-size: cover;
-    background-repeat:no-repeat;
-    background-position:100% 0;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
   }
+
+  .info {
+    width: 100%;
+    height: 5rem; 
+    background-color: #4d4d4d;
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .card {
+    width: 40%;
+    height: 45%;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #4d4a4a;
+    margin: 2rem;
+    font-family: $usefontLight;
+  }
+
+  .name {
+    color: #000;
+    font-size: 4rem;
+    margin: 4rem 0 2rem 0;
+    text-shadow: 2px 2px 3px #4d4a4a;
+  }
+
+  .posit {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .tel {
+    width: 70%;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .front {
+    background-color: #fff;
+  }
+
+  .back {
+    background-color: #4d4d4d;
+  }
+
+  .follow {
+    display: inline-block;
+    color: #fa8e0a;
+    font-family: $usefontLight;
+    font-size: 2rem;
+  }
+
+  .down {
+    display: inline-block;
+  }
+
+  .down:hover {   
+    color: #fa8e0a;
+    transition: 0.3s Ease;
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+
 }

@@ -3,29 +3,13 @@
 $(document).ready(function() {
   
   $('.foto').mouseenter(function(){
-    $('#name').css('color','#2cbc99');
+    $('#name').css('color','#fa8e0a');
   });
 
   $('.foto').mouseleave(function(){
     $('#name').css('color','#fff');
   });
 });
-
-
-// INTERESTS
-
-$(document).ready(function() {
-   $('.shrink').mouseenter(function(){
-      $('.text_ski').fadeIn('fast', 0.5);
-   });
-
-   $('.shrink2').mouseenter(function(){
-      $('.text_mount').fadeIn('fast', 0.5);
-   });
-
-});
-
-
 
 
 (function ($) {
@@ -371,7 +355,7 @@ function scroll(){
 
 }
 $(document).ready(function(){
-	$("a.photo").fancybox({
+	$("a.picture").fancybox({
 		transitionIn: 'elastic',
 		transitionOut: 'elastic',
 		speedIn: 500,

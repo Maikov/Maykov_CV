@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("a.photo").fancybox({
+	$("a.picture").fancybox({
 		transitionIn: 'elastic',
 		transitionOut: 'elastic',
 		speedIn: 500,

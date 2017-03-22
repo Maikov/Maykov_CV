@@ -3,7 +3,7 @@
 $(document).ready(function() {
   
   $('.foto').mouseenter(function(){
-    $('#name').css('color','#2cbc99');
+    $('#name').css('color','#fa8e0a');
   });
 
   $('.foto').mouseleave(function(){
