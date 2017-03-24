@@ -1,7 +1,9 @@
 	// HEADER
 
 $(document).ready(function() {
-  // FOTO
+  
+// FOTO
+
   $('.foto').mouseenter(function(){
     $('#name').css('color','#fa8e0a');
   });
@@ -11,20 +13,19 @@ $(document).ready(function() {
   });
 
 // MENU
-	$('#hum').click(function(){
-    $('#menu').slideToggle(700);
 
+	$('#hum').click(function(){
+    $('nav').addClass('menu_mob');
+    $('.menu_mob').slideToggle(500);
   });
 
   $('.btn').click(function(){
-    $('#menu').fadeOut(300);
+    $('.menu_mob').fadeOut(300);
   });
 
-  $('#menu').mouseleave(function(){
-    $(this).fadeOut(300);
-  });
-
-
+  // $('.menu_mob').mouseleave(function(){
+  //   $('.menu_mob').fadeOut(300);
+  // });
  
 
 });
