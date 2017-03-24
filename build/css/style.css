@@ -108,14 +108,13 @@ table {
     cursor: pointer;
     margin: 0.5rem;
     color: #fff;
-    float: left;
+    text-shadow: 0 0 5px #000;
     position: fixed;
     z-index: 10000; }
   #menu {
     display: none;
     position: fixed;
-    width: 70%;
-    margin: 0 auto;
+    width: 60%;
     margin-left: 3rem;
     font-family: "Oswald-Light", sans-serif;
     text-align: center;
@@ -131,18 +130,12 @@ table {
       letter-spacing: 0.2rem;
       text-transform: uppercase;
       border-radius: 5px;
-      box-shadow: 0 0 10px #2cbc99; }
+      box-shadow: 0 0 5px #2cbc99; }
     #menu .btn:hover {
-      border: none;
       background: #fff;
       padding: 1rem;
       color: #2cbc99;
-      border-radius: 5px;
-      -webkit-transition-property: all;
-      -webkit-transition-duration: .2s;
-      -moz-transition-timing-function: cubic-bezier(100, 50, 21, 6);
-      -moz-transition-property: all;
-      -moz-transition-timing-function: cubic-bezier(100, 50, 21, 6); }
+      border-radius: 5px; }
   .header_text {
     display: block;
     overflow: hidden;

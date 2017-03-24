@@ -12,30 +12,20 @@ $(document).ready(function() {
 
 // MENU
 	$('#hum').click(function(){
-    $('#menu').fadeIn(200);
+    $('#menu').slideToggle(700);
+
   });
 
-  // $('.btn').click(function(){
-  //   $('#menu').fadeOut();
-  // });
+  $('.btn').click(function(){
+    $('#menu').fadeOut(300);
+  });
 
-  // $('#menu').mouseleave(function(){
-  //   $(this).fadeOut();
-  // });
+  $('#menu').mouseleave(function(){
+    $(this).fadeOut(300);
+  });
 
 
-  function display_hide (menu) 
-{ 
-    if ($('#menu').css('display') == 'none') 
-        { 
-            $('#menu').fadeIn(200); 
-        } 
-    else 
-        {     
-            $('#menu').fadeOut(); 
-        } 
-} 
-
+ 
 
 });
 
