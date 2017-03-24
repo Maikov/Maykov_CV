@@ -104,20 +104,30 @@ table {
     background-repeat: no-repeat;
     background-position: 100% 0;
     box-shadow: 0 10px 10px #98998e; }
-  #menu {
-    width: 100%;
-    margin: 0 auto;
-    font-family: "Oswald-Light", sans-serif;
+  #hum {
+    cursor: pointer;
+    margin: 0.5rem;
+    color: #fff;
+    float: left;
     position: fixed;
+    z-index: 10000; }
+  #menu {
+    display: none;
+    position: fixed;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 3rem;
+    font-family: "Oswald-Light", sans-serif;
     text-align: center;
-    margin-top: 2rem;
-    z-index: 6000; }
+    margin-top: 1rem;
+    z-index: 9000; }
     #menu .btn {
+      display: block;
       color: #fff;
-      background: rgba(0, 0, 0, 0.5);
-      padding: 1rem 3.3rem;
-      font-size: 1.2rem;
-      text-decoration: none;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 1rem;
+      margin: 0.2rem;
+      font-size: 1rem;
       letter-spacing: 0.2rem;
       text-transform: uppercase;
       border-radius: 5px;
@@ -125,7 +135,7 @@ table {
     #menu .btn:hover {
       border: none;
       background: #fff;
-      padding: 1.5rem 3.3rem;
+      padding: 1rem;
       color: #2cbc99;
       border-radius: 5px;
       -webkit-transition-property: all;
@@ -137,12 +147,14 @@ table {
     display: block;
     overflow: hidden;
     text-align: center;
-    margin-top: 3rem; }
+    margin-top: 0.7rem; }
     .header_text #name {
+      width: 80%;
+      margin: 0 auto;
       font-family: "Merriweather", sans-serif;
-      font-size: 2rem;
+      font-size: 1.7rem;
       color: #fff;
-      letter-spacing: 0.2rem;
+      letter-spacing: 0.1rem;
       text-shadow: 0 0 0.2rem #000; }
     .header_text .position {
       margin-top: 0.5rem;
@@ -152,7 +164,7 @@ table {
       letter-spacing: 0.1rem;
       text-shadow: 0 0 0.1rem #000; }
   .about {
-    padding: 1rem;
+    padding: 0.5rem;
     font-family: "Oswald-Light", sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -162,20 +174,20 @@ table {
     color: #fa8e0a;
     font-weight: bold; }
   .foto {
-    background: url(../../build/img/anton.jpg) no-repeat;
+    background: url(../../build/img/anton_mini.jpg) no-repeat;
     height: 200px;
     width: 200px;
     margin: 0 auto;
     border-radius: 100%;
     box-shadow: 0 0 5px #98998e;
-    border: solid 3px #fff;
+    border: solid 1px #fff;
     transition: background 1s ease;
     backface-visibility: hidden;
     transition: all 0.5s ease; }
   .foto:hover {
     background: url(../../build/img/anton.jpg) no-repeat;
     border-radius: 100%;
-    background-position: top right;
+    background-position: center;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -199,7 +211,7 @@ table {
     box-shadow: 0 0 10px #2cbc99;
     margin-top: 1rem; }
   .details {
-    margin-top: 4rem; }
+    margin-top: 0.5rem; }
   .download:hover {
     color: #2cbc99; }
   .details:hover {
@@ -542,6 +554,8 @@ table {
     background-repeat: no-repeat;
     background-position: 100% 0;
     box-shadow: 0 10px 10px #98998e; }
+  #hum {
+    display: none; }
   #menu {
     width: 100%;
     margin: 0 auto;
@@ -611,14 +625,14 @@ table {
     margin: 0 auto;
     border-radius: 100%;
     box-shadow: 0 0 10px #98998e;
-    border: solid 6px #fff;
+    border: solid 3px #fff;
     transition: background 1s ease;
     backface-visibility: hidden;
     transition: all 0.5s ease; }
   .foto:hover {
-    background: url(../../build/img/anton.jpg) no-repeat;
+    background: url(../../build/img/anton_max.jpg) no-repeat;
     border-radius: 100%;
-    background-position: top right;
+    background-position: center;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -642,7 +656,7 @@ table {
     box-shadow: 0 0 10px #2cbc99;
     margin-top: 2rem; }
   .details {
-    margin-top: 4rem; }
+    margin-top: 6rem; }
   .download:hover {
     color: #2cbc99; }
   .details:hover {
@@ -925,10 +939,9 @@ table {
     box-shadow: 0 10px 10px #98998e;
     z-index: 1000; }
   .pic {
-    border: 10px solid #fff;
     display: inline-block;
     overflow: hidden;
-    margin: 2rem 4rem 2rem 4rem;
+    margin: 2rem 5rem 2rem 5rem;
     overflow: hidden;
     -webkit-box-shadow: 5px 5px 5px #111;
     box-shadow: 5px 5px 5px #111; }
@@ -939,23 +952,27 @@ table {
     height: 350px;
     width: 350px;
     border-radius: 100%;
-    box-shadow: 0 0 10px #98998e; }
+    box-shadow: 0 0 10px #98998e;
+    border: solid 5px #fff; }
   .shrink:hover {
     background: url(../../build/img/2ski.png);
+    background-position: center;
+    border-radius: 100%;
     width: 500px;
     height: 500px;
-    border: solid 10px #fff; }
+    border: solid 5px #fff; }
   .shrink2 {
     background: url(../../build/img/mountian1.jpg) no-repeat;
     height: 350px;
     width: 350px;
     border-radius: 100%;
-    box-shadow: 0 0 10px #98998e; }
+    box-shadow: 0 0 5px #98998e;
+    border: solid 5px #fff; }
   .shrink2:hover {
     background: url(../../build/img/mountian.jpg) no-repeat;
     width: 500px;
     height: 500px;
-    border: solid 10px #fff; }
+    border: solid 5px #fff; }
   .text {
     display: none;
     font-family: "Merriweather", sans-serif;

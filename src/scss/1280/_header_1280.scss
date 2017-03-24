@@ -18,6 +18,10 @@
     box-shadow: 0 10px 10px #98998e;
   }
 
+#hum {
+    display: none;
+  }
+
   #menu {
     width: 100%;
     margin: $center;
@@ -94,7 +98,6 @@
   }
 
   .txt_change {
-    // color: #2cbc99;
     color: #fa8e0a;
     font-weight: bold;
   }
@@ -106,23 +109,22 @@
     margin: $center;
     border-radius: 100%;
     box-shadow: 0 0 10px #98998e;
-    border: solid 6px #fff;
+    border: solid 3px #fff;
     transition: background 1s ease;
     backface-visibility: hidden;
     transition: all 0.5s ease;
   }
 
   .foto:hover {
-    background: url(../../build/img/anton.jpg) no-repeat;
+    background: url(../../build/img/anton_max.jpg) no-repeat;
     border-radius: 100%;
-    background-position: top right;
+    background-position: center;
     -webkit-transform: rotate(360deg);
        -moz-transform: rotate(360deg);
          -o-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
             transform: rotate(360deg);
             transition: background 1s ease;
-    // border: solid 6px #fa8e0a;
     box-shadow: 0 0 10px #98998e;
   }
 
@@ -144,7 +146,7 @@
   }
 
   .details {
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 
   .download:hover {
