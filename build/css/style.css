@@ -102,8 +102,7 @@ table {
     background-clip: initial;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 0;
-    box-shadow: 0 10px 10px #98998e; }
+    background-position: 100% 0; }
   #hum {
     cursor: pointer;
     margin: 0.5rem;
