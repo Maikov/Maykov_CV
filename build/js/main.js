@@ -15,24 +15,34 @@ $(document).ready(function() {
 // MENU
 
 	$('#hum').click(function(){
-    $('nav').addClass('menu_mob');
-    $('.menu_mob').slideToggle(500);
-
-      $('.menu_mob').mouseleave(function(){
-        $('.menu_mob').fadeOut(300);
-      });
-  });
-
-  $('.btn').click(function(){
-    $('.menu_mob').fadeOut(300);
-  });
-
+    $('nav').addClass('menu');
+    $('.menu').slideToggle(500); 
+    return false;
+  });  
   
- 
+  $('.btn').click(function(){
+    $('.menu').fadeOut(300);
+  });
+
+  $('.menu').mouseleave(function(){
+    $('.menu').fadeOut(300);
+  });
+
 
 });
 
 
+
+$(document).ready(function(){
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 0) {
+      $('#scroller').fadeIn();} 
+    else {
+      $('#scroller').fadeOut();}});
+      $('#scroller').click(function () {
+  $('body,html').animate({scrollTop: 0}, 600); 
+  return false;});
+});
 (function ($) {
     $.fn.boxLoader = function (options) {
 

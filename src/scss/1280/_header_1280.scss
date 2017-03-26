@@ -22,7 +22,8 @@
     display: none;
   }
 
-  .menu {
+  #menu {
+    display: block !important;
     width: 100%;
     margin: $center;
     font-family: $usefontLight;
@@ -55,7 +56,7 @@
       -moz-transition-property: all;
       -moz-transition-timing-function: cubic-bezier(100,50,21,6);
     }
-  }
+ }
 
   .header_text {
     display: block;
@@ -88,8 +89,7 @@
   .about {
     float: left;
     width: calc(99%/3);
-    height: 400px;
-    padding: 2rem;
+    padding: 1rem;
     font-family: $usefontLight;
     font-size: 2rem; 
     line-height: 2.7rem;
@@ -130,7 +130,7 @@
 
   .link {
     display: block;
-    width: 70%;
+    width: 60%;
     margin: $center;
     font-family: $usefontLight;
     color: #fff; 
@@ -145,9 +145,9 @@
     margin-top: 2rem;
   }
 
-  .details {
-    margin-top: 6rem;
-  }
+  // .details {
+  //   margin-top: 6rem;
+  // }
 
   .download:hover {
     color: #2cbc99;

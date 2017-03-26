@@ -110,9 +110,10 @@ table {
     text-shadow: 0 0 6px #000;
     position: fixed;
     z-index: 10000; }
-  .menu {
+  #menu {
     display: none; }
-  .menu_mob {
+  .menu {
+    display: none;
     position: fixed;
     width: 60%;
     margin-left: 3rem;
@@ -120,7 +121,7 @@ table {
     text-align: center;
     margin-top: 0.7rem;
     z-index: 9000; }
-    .menu_mob .btn {
+    .menu .btn {
       display: block;
       color: #fff;
       background: rgba(0, 0, 0, 0.8);
@@ -131,7 +132,7 @@ table {
       text-transform: uppercase;
       border-radius: 5px;
       box-shadow: 0 0 5px #2cbc99; }
-    .menu_mob .btn:hover {
+    .menu .btn:hover {
       background: #fff;
       padding: 1rem;
       color: #2cbc99;
@@ -205,7 +206,31 @@ table {
     margin-bottom: 0.7rem;
     margin-top: 0.7rem; }
   .link:hover {
-    color: #2cbc99; } }
+    color: #2cbc99; }
+  .b-top {
+    z-index: 2600;
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 40%;
+    margin: 0 auto;
+    filter: alpha(opacity=50);
+    opacity: 0.5; }
+  .b-top:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    cursor: pointer; }
+  .b-top-but {
+    z-index: 2600;
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 0 100%;
+    padding: 30px 40px 10px 40px;
+    color: white;
+    background: #736f6f url(http://alaev.info/wp-content/plugins/goupbutt/b-j-top.png) no-repeat 50% 11px;
+    border-radius: 7px; } }
 
 @media screen and (min-width: 1024px) {
   .education {
@@ -546,7 +571,8 @@ table {
     box-shadow: 0 10px 10px #98998e; }
   #hum {
     display: none; }
-  .menu {
+  #menu {
+    display: block !important;
     width: 100%;
     margin: 0 auto;
     font-family: "Oswald-Light", sans-serif;
@@ -554,7 +580,7 @@ table {
     text-align: center;
     margin-top: 2rem;
     z-index: 6000; }
-    .menu .btn {
+    #menu .btn {
       color: #fff;
       background: rgba(0, 0, 0, 0.5);
       padding: 1rem 3.3rem;
@@ -564,7 +590,7 @@ table {
       text-transform: uppercase;
       border-radius: 5px;
       box-shadow: 0 0 10px #2cbc99; }
-    .menu .btn:hover {
+    #menu .btn:hover {
       border: none;
       background: #fff;
       padding: 1.5rem 3.3rem;
@@ -598,8 +624,7 @@ table {
   .about {
     float: left;
     width: calc(99%/3);
-    height: 400px;
-    padding: 2rem;
+    padding: 1rem;
     font-family: "Oswald-Light", sans-serif;
     font-size: 2rem;
     line-height: 2.7rem;
@@ -632,7 +657,7 @@ table {
     box-shadow: 0 0 10px #98998e; }
   .link {
     display: block;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     font-family: "Oswald-Light", sans-serif;
     color: #fff;
@@ -645,8 +670,6 @@ table {
     text-transform: uppercase;
     box-shadow: 0 0 10px #2cbc99;
     margin-top: 2rem; }
-  .details {
-    margin-top: 6rem; }
   .download:hover {
     color: #2cbc99; }
   .details:hover {
